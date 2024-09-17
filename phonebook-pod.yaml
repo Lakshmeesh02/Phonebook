@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: phonebook-cli-pod
+spec:
+  containers:
+  - name: phonebook-container
+    image: pes1ug21cs298/phonebook
+    command: ["./contactbook"]
